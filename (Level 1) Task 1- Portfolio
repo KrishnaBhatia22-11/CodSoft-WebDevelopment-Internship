@@ -1,0 +1,277 @@
+#HTML CODE 
+************************************************************************************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Bhatia - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Krishna Bhatia</h1>
+            <p>Web Developer | AI & ML Enthusiast</p>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <img src="your-image.jpg" alt="Krishna Bhatia">
+        <p>Hi! I'm Krishna Bhatia, a motivated web developer passionate about AI and ML. I love creating innovative, scalable, and user-centric applications.</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <span>C++</span>
+            <span>Python</span>
+            <span>HTML & CSS</span>
+            <span>JavaScript</span>
+            <span>AI & ML</span>
+            <span>Data Structures</span>
+            <span>UI/UX Design</span>
+            <span>Microsoft Azure AI-900</span>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Career Guidance System (Ongoing)</h3>
+            <p>AI-driven platform assisting students in career selection.</p>
+        </div>
+        <div class="project-card">
+            <h3>Restaurant Management System (Ongoing)</h3>
+            <p>Web-based system for restaurant operations and management.</p>
+        </div>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Work Experience</h2>
+        <p><strong>Executive Member, MRAC (Manav Rachna AIML Club)</strong> (January 2024 - Present)</p>
+        <ul>
+            <li>Contributing to AI/ML discussions, workshops, and research.</li>
+            <li>Working on web development and UI/UX design projects using Figma.</li>
+            <li>Completed courses in Data Structures & Algorithms, C++, and Python.</li>
+        </ul>
+    </section>
+
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <p><strong>B.Tech in Computer Science & Engineering (AI & ML Specialization)</strong></p>
+        <p>Manav Rachna International Institute of Research and Studies, Faridabad, Haryana</p>
+        <p>Expected Graduation: 2027</p>
+        <p>Class XII: 81% (Gita Bal Niketan)</p>
+        <p>Class X: 88% (Gita Bal Niketan)</p>
+    </section>
+
+    <section id="certifications" class="container">
+        <h2>Certifications & Courses</h2>
+        <ul>
+            <li>Programming with C and C++ - Internshala</li>
+            <li>Data Structures & Algorithms - Internshala</li>
+            <li>Python - Technophilia</li>
+            <li>Graph Data Structures & Knowledge Graphs - Infosys Springboard</li>
+            <li>MS Excel (Basics) - Coursera</li>
+            <li>Azure AI-900 Fundamentals - Microsoft</li>
+        </ul>
+    </section>
+
+    <section id="achievements" class="container">
+        <h2>Achievements</h2>
+        <ul>
+            <li>First place in the Mathematical Fest for a poster on 'Mathematics in Music.'</li>
+            <li>Secured top ranks in coding contests conducted by college.</li>
+            <li>Represented the college in inter-university tech events.</li>
+        </ul>
+    </section>
+
+    <section id="extracurricular" class="container">
+        <h2>Extracurricular Activities</h2>
+        <ul>
+            <li>Active participation in technical events and coding competitions.</li>
+            <li>Engaged in various poster design competitions.</li>
+        </ul>
+    </section>
+
+    <section id="hobbies" class="container">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+            <li>Sports - Enthusiastic about physical activities and team sports.</li>
+            <li>Anime - Passionate about Japanese storytelling.</li>
+            <li>Photography - Capturing moments and exploring different styles.</li>
+        </ul>
+    </section>
+
+    <section id="resume" class="container">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download Resume (PDF)</a>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:krishnabhatia09@gmail.com">krishnabhatia09@gmail.com</a></p>
+        <p>Phone: 9971459200</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/KrishnaBhatia" target="_blank">Krishna Bhatia</a></p>
+        <p>GitHub: <a href="https://github.com/KrishnaBhatia22-11" target="_blank">KrishnaBhatia22-11</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Krishna Bhatia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+***************************************************************************************************
+# CSS CODE
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+    color: #e6edf3;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: white;
+    padding: 60px 20px;
+    box-shadow: 0px 4px 15px rgba(255, 65, 108, 0.3);
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+section {
+    padding: 60px 0;
+    background: #161b22;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(255, 75, 43, 0.5);
+    margin-bottom: 15px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.skills-list span {
+    background: #ff4b2b;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.skills-list span:hover {
+    background: #ff416c;
+    transform: scale(1.1);
+}
+
+.project-card {
+    background: #1c2027;
+    padding: 25px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    background: #ff416c;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: rgba(255, 75, 43, 0.8);
+    color: white;
+    transform: scale(1.05);
+}
+
+#resume a {
+    display: inline-block;
+    background: #ff4b2b;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+#resume a:hover {
+    background: #ff416c;
+    transform: scale(1.1);
+}
+
+#contact a {
+    color: #ff4b2b;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: #ff416c;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
